@@ -3,13 +3,13 @@ import { formatDistanceToNow } from 'date-fns'
 import { ptBR } from 'date-fns/locale'
 
 import { getOrderDetails } from '@/api/get-order-details'
+import { OrderStatus } from '@/components/order-status'
 import {
   DialogContent,
   DialogDescription,
   DialogHeader,
   DialogTitle,
 } from '@/components/ui/dialog'
-import { OrderStatus } from '@/components/ui/order-status'
 import {
   Table,
   TableBody,
